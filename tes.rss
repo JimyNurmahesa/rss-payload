@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <atom:link href="https://example.com/rss" rel="self" type="application/rss+xml"/>
+    <title><![CDATA[Data Skepticx <b>Injected HTML</b>]]></title>
+    <link>https://example.com</link>
+    <language>en</language>
+    <description><![CDATA[
+      This feed demonstrates that external RSS content is rendered as HTML
+      without proper sanitization.
+      <br>
+      <i>Indicator:</i> inline HTML tags render instead of being escaped.
+    ]]></description>
+
+    <item>
+      <title><![CDATA[Episode 1 — <u>HTML Render Test</u>]]></title>
+      <link>https://example.com/episode-1</link>
+      <description><![CDATA[
+        If you see <strong>bold</strong>, <em>italic</em>, or <u>underline</u>
+        rendered here (not escaped), the application is rendering HTML
+        from an external RSS source.
+      ]]></description>
+      <itunes:duration>10:00</itunes:duration>
+    </item>
+  </channel>
+</rss>
