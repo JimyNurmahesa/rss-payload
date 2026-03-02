@@ -18,7 +18,7 @@
       <title><![CDATA[Episode 1 — <u>HTML Render Test</u>]]></title>
       <link>https://example.com/episode-1</link>
       <description><![CDATA[
-        If you see <strong>bold</strong>, <em>italic</em>, <scr<strong>ipt>tes</scr<strong>ipt>or <u>underline</u>
+        If you see <b>bold</b> <img src=x>
         rendered here (not escaped), the application is rendering HTML
         from an external RSS source.
       ]]></description>
