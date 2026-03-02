@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+        <channel>
+                <title>toto</title>
+                <description>This is a simplified example of the RSS feed</description>
+                <link>java
+script:alert(`XSSSS!`)</link>
+                <copyright>2021 fileformat.com All rights reserved</copyright>
+                <lastBuildDate>Wed, 22 Jun 2021 00:01:00 +0000</lastBuildDate>
+                <pubDate>Wed, 22 Jun 2021 16:20:00 +0000</pubDate>
+                <ttl>1800</ttl>
+                <item>
+                        <title>Ex2ample entry</title>
+                        <description>Here is some text containing an interesting description.</description>
+                        <link>http://example.com</link>
+                        <guid isPermaLink="false">9bd605d5-1921-8i67-dgft-65g635d3587u</guid>
+                        <pubDate>Wed, 22 Jun 2021 16:20:00 +0000</pubDate>
+                </item>
+        </channel>
+</rss>
